@@ -66,8 +66,8 @@ Consumption overages can only be calculated by this solution on Environments tha
 
 This solution consists of a Power Automate Flow that gathers AI Builder consumption telemetry and stores it in the Dataverse tables that maintain AI Builder Inventory in the COE TK environment. It runs on a nightly basis (midnight) and no user configuration is required.
 However, for immediate results, perform the following two steps:
-1. Run the Power Automate Flow: AI Builder Consumption Tenant Update and wait for it to finish.
-2. Run the System Job as per step 6 in the Import Solution section.
+1. Run the Power Automate Flow "AI Builder Consumption Tenant Update" and wait for it to finish.
+2. Run the System Job as per step 6 in the Import Solution section above.
 
 ### Viewing AI Builder Consumption Overages
 
