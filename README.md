@@ -30,7 +30,7 @@ This solution must be installed in the same environment as your Center of Excell
 2. In the Power Platform maker experience, navigate to the target environment and import the solution.
 3. Publish all customizations.
 4. Ensure the following Power Automate Flow is turned on: AI Builder Consumption Tenant Update
-5. Run the Power Automate Flow and wait for it to finish.
+5. Run the Power Automate Flow and wait for it to finish. This may take anywhere from 10 minutes to one hour.
 6. The newly created field "AI Builder Overage" on the Environment table is a roll-up field. Because roll-up fields aggregate nightly you must run the System Job for this field manually if you want to see instant results. To update the System Job, navigate to the System Job area, search for "\*ai" (sans quotes), select the record as below and resume the job from the "More Actions" button as shown below.
 
 ![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/43369ace-7fd8-463c-b120-bb8891967e40)
@@ -57,14 +57,17 @@ Consumption overages can only be calculated by this solution on Environments tha
 1. Navigate to Environments from the Site Map.
 2. Click into the respective Environment record.
 3. Click on the "Capacity and Add-ons" tab.
-4. Add a new Environment Add-on or update the existing one and set the Allocated amount. Note that the Add-on record in question must have the "Add-on Type" field set to "AI" (sans quotes).
+4. Add a new Environment Add-on or update the existing one and set the Allocated amount.
+5. Note that the Add-on record in question must have the "Add-on Type" field set to "AI" (sans quotes).
 
 ![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/91b9ae50-7bb9-45bf-818d-0dbd9a6f812c)
-
 
 ### Gathering AI Builder Consumption Telemetry
 
 This solution consists of a Power Automate Flow that gathers AI Builder consumption telemetry and stores it in the Dataverse tables that maintain AI Builder Inventory in the COE TK environment. It runs on a nightly basis (midnight) and no user configuration is required.
+However, for immediate results, perform the following two steps:
+1. Run the Power Automate Flow: AI Builder Consumption Tenant Update and wait for it to finish.
+2. Run the System Job as per step 6 in the Import Solution section.
 
 ### Viewing AI Builder Consumption Overages
 
