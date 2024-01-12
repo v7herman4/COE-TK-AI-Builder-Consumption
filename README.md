@@ -26,7 +26,7 @@ This solution must be installed in the same environment as your Center of Excell
 
 ### Import Solution
 
-1. Download the solution from the latest release: https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/releases
+1. Download the solution (AIBuilderConsumptionManagement_x_x_x_managed.zip) from the latest release: https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/releases
 2. In the Power Platform maker experience, navigate to the target environment and import the solution.
 3. Publish all customizations.
 4. Ensure the following Power Automate Flow is turned on: AI Builder Consumption Tenant Update
