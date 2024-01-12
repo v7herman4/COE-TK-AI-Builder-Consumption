@@ -69,6 +69,12 @@ However, for immediate results, perform the following two steps:
 1. Run the Power Automate Flow "AI Builder Consumption Tenant Update" and wait for it to finish.
 2. Run the System Job as per step 6 in the Import Solution section above.
 
+The tables involved are:
+For each environment, for each record in "AI Model", a summation is generated from associated records in the "AI Events" table. The "AI Events" table is auto-created by the Power Platform and stores actual credits consumed by model by train/publish/run action per the AI Builder rate card.
+In the COE Toolkit environment, the "AIBuilderModels" is updated with the above consumption for ever AI Builder Model. The respective "Environment Addons" table is updated with the total consumption for this Environment for all AI Builder Model consumptions.
+
+Note that all consumption is calculated for the current month from the 1st day of the month. This is per the consumption approach identified in the licensing guide for AI Builder Credits.
+
 ### Viewing AI Builder Consumption Overages
 
 In order to view Environments with overages on AI Builder Consumption open the Power Platform Admin View app installed with the COE Toolkit.
