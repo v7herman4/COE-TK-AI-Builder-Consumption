@@ -98,6 +98,14 @@ The sub-grid labeled "AI Builder Models This Environment" lists the AI Builder m
 
 ![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/43d60f9f-6fb1-4fe8-9866-4c7b60e61632)
 
+For additionall analysis, export the list of AI Builder Models for the current environment by clicking on the ellipses and select "Export AiBuilderModels". 
+
+![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/285a3bc2-0ff3-4850-a00b-2a3b7019ca1f)
+
+Chose "Open in Excel Online" for quicker access to the data view.
+
+![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/79632f64-db42-4b85-a734-d575e2fbdcd6)
+
 
 ### Proactive Notifications of AI Builder Overages
 
