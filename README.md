@@ -98,7 +98,7 @@ The sub-grid labeled "AI Builder Models This Environment" lists the AI Builder m
 
 ![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/43d60f9f-6fb1-4fe8-9866-4c7b60e61632)
 
-For additionall analysis, export the list of AI Builder Models for the current environment by clicking on the ellipses and select "Export AiBuilderModels". 
+For additionall analysis, export the list of AI Builder Models for the current environment by clicking on the ellipses, select "Export AiBuilderModels" and then click ont he right-arrow for export options.
 
 ![image](https://github.com/v7herman4/COE-TK-AI-Builder-Consumption/assets/89024016/285a3bc2-0ff3-4850-a00b-2a3b7019ca1f)
 
